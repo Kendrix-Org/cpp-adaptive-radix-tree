@@ -2,14 +2,14 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Debug C++ with LLDB",
+            "name": "Debug C++",
             "type": "lldb",
             "request": "launch",
-            "program": "${workspaceFolder}/build/main.exe",
+            "program": "${command:cmake.launchTargetPath}",
             "args": [],
             "cwd": "${workspaceFolder}",
             "console": "integratedTerminal",
-            "preLaunchTask": "Build with Clang++"
+            "preLaunchTask": "Build C++"
         }
     ]
 }

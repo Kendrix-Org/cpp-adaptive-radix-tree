@@ -2,17 +2,16 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "Build with Clang++",
-            "type": "shell",
-            "command": "clang++",
-            "args": [
-                "-g", "src/main.cpp", "-o", "build/main.exe"
-            ],
+            "label": "Build C++",
+            "type": "cmake",
+            "command": "build",
             "group": {
                 "kind": "build",
                 "isDefault": true
             },
-            "problemMatcher": ["$gcc"]
+            "problemMatcher": [
+                "$gcc"
+            ]
         }
     ]
 }

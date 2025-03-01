@@ -1,3 +1,5 @@
 {
-    "C_Cpp.default.compilerPath": "C:/msys64/ucrt64/bin/clang++.exe"
+    "cmake.generator": "Ninja",
+    "cmake.configureOnOpen": true,
+    "cmake.buildDirectory": "${workspaceFolder}/build"
 }
